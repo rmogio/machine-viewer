@@ -14,8 +14,8 @@ function MachineCard({machine}){
       <h2 className='card-title'>{machine_name}</h2>
       <img src="https://images.unsplash.com/photo-1524514587686-e2909d726e9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""/>
       <div className="card-info">
-        <span>{`ID: ${machine_id}`}</span>
-        <span>{`Setor: ${machine_section}`}</span>
+        <span className='card-info-sector'>{`Setor: ${machine_section}`}</span>
+        <span className='card-info-id'>{`ID: ${machine_id}`}</span>
       </div>
       <div className="card-sensors">
         {
