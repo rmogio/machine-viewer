@@ -1,0 +1,43 @@
+.card{
+  margin-top: 15px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: blue;
+  height: 330px;
+  width: 250px;
+}
+
+.card-title{
+  margin: 5px 0 5px 0;
+}
+
+.card img{
+  width: 230px;
+  border-radius: 8px;
+}
+
+.card-info{
+  margin: 14px 0 14px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+
+.card-sensors{
+  margin: 0 0 5px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex:1;
+}
+
+.card-sensors span{
+  height: 1.2em;
+  line-height: 1.2em;
+  margin: 3px 5px 3px 5px;
+  background-color: red;
+}

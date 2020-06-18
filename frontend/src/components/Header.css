@@ -1,0 +1,20 @@
+.header{
+  background-color: darkslategrey;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 3em;
+  padding: 0 20px 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-options{
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
