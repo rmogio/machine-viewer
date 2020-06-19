@@ -13,10 +13,13 @@ function App(){
   const [machines, setMachines] = useState([])
 
   useEffect(()=>{
-    api.get('machines')
-      .then(response => {
-        setMachines(response.data)
-      })
+    function loadMachine(){
+      api.get('machines')
+        .then(response => {
+          setMachines(response.data)
+        })
+    }
+    loadMachine()
   },[])
 
   return(
