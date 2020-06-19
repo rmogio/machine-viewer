@@ -6,10 +6,11 @@ function Header(){
   return(
     <div className="header">
       <h1>Machine Viewer</h1>
-      <div className="header-options">
+{/*       <div className="header-options">
+        <a href="#">Alterar</a>
         <a href="#">Procurar</a>
         <a href="#">Cadastrar</a>
-      </div>
+      </div> */}
     </div>
   )
 
